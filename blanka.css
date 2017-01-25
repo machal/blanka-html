@@ -1,47 +1,39 @@
-/* 
-Blanka CSS
-----------
+/*
+Blanka.css: Seting basic document typography
+============================================
+
+- document minimal paddings
+- block elements with bottom margins only
+- same left margins for ul/ol, dd, blockquote
+
 */
 
 
 /*
-Blokove prvky odsazeny o jednu font-size
+Document minimal paddings
+*/
+
+body {
+  padding: 1.5rem;
+}
+
+/*
+Block elements with bottom margins only
+---------------------------------------
 */
 
 p, ul, ol, dl, table,
 blockquote, pre, hr {
+  padding-top: 0;
+  padding-bottom: 0;
   margin-top: 0;
   margin-bottom: 1rem;
 }
 
-/*
-Nadpisy odsazeny o pulku font-size
-*/
-
 h1, h2, h3, h4, h5, h6 {
 	margin-top: 0;
-	margin-bottom: .5rem;	
+	margin-bottom: .5rem;
 }
-
-dd {
-  margin-left: 0
-}
-
-/*
-UL/OL
------
-
-Nastaveno podle dvoucifernych cisel v <ul>
-*/
-
-ul, 
-ol {
-  padding-left: 1.75rem;
-}
-
-/*
-Zanorene seznamy se neodsazuji
-*/
 
 ul ul,
 ul ol,
@@ -50,6 +42,40 @@ ol ol {
   margin-bottom: 0;
 }
 
+
+/*
+Same left margins for ul/ol, dd, blockquote
+-------------------------------------------
+*/
+
+ul,
+ol,
+dd {
+  padding-left: 1.75rem;
+}
+
+dd {
+  margin-left: 0;
+}
+
+/*
+Blockquote
+----------
+1) Same left spacing as ul/ol
+*/
+
+blockquote {
+  border-left: .25rem solid lightgrey;
+  padding-left: 1.5rem; /* 1) */
+  margin-left: 0;
+}
+
+
+/*
+Etc.
+----
+*/
+
 fieldset {
   border: 0;
 }
@@ -57,4 +83,10 @@ fieldset {
 legend {
   padding: 0 .5rem;
 }
+
+hr {
+  border-style: solid;
+  opacity: .25;
+}
+
 
