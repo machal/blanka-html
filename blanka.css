@@ -1,0 +1,60 @@
+/* 
+Blanka CSS
+----------
+*/
+
+
+/*
+Blokove prvky odsazeny o jednu font-size
+*/
+
+p, ul, ol, dl, table,
+blockquote, pre, hr {
+  margin-top: 0;
+  margin-bottom: 1rem;
+}
+
+/*
+Nadpisy odsazeny o pulku font-size
+*/
+
+h1, h2, h3, h4, h5, h6 {
+	margin-top: 0;
+	margin-bottom: .5rem;	
+}
+
+dd {
+  margin-left: 0
+}
+
+/*
+UL/OL
+-----
+
+Nastaveno podle dvoucifernych cisel v <ul>
+*/
+
+ul, 
+ol {
+  padding-left: 1.75rem;
+}
+
+/*
+Zanorene seznamy se neodsazuji
+*/
+
+ul ul,
+ul ol,
+ol ul,
+ol ol {
+  margin-bottom: 0;
+}
+
+fieldset {
+  border: 0;
+}
+
+legend {
+  padding: 0 .5rem;
+}
+
