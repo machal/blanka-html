@@ -1,6 +1,11 @@
 /*
 Blanka Helpers: Subatomic CSS helpers
 =====================================
+
+- Display
+- Spacing: margins and paddings
+- Widths and heights
+
 */
 
 
@@ -9,6 +14,21 @@ Blanka Helpers: Subatomic CSS helpers
 .d-b    { display: block }
 .d-i    { display: inline }
 .d-ib   { display: inline-block }
+
+/* Screen reader only */ 
+
+.sr-only { /*https://developer.yahoo.com/blogs/ydn/clip-hidden-content-better-accessibility-53456.html*/
+    position: absolute !important;
+    clip: rect(1px 1px 1px 1px); /* IE6, IE7 */
+    clip: rect(1px, 1px, 1px, 1px);
+    padding:0 !important;
+    border:0 !important;
+    height: 1px !important;
+    width: 1px !important;
+    overflow: hidden;
+}
+
+body:hover .sr-only a, body:hover .sr-only input, body:hover .sr-only button { display: none !important; }
 
 
 /* Margins */
@@ -87,3 +107,46 @@ Blanka Helpers: Subatomic CSS helpers
 /* Borders */
 
 .b-0 { border: 0; }
+
+
+/* Print */
+
+.hidden-print {
+  @media print {
+    display: none;
+  }
+}
+
+.print-only {
+  display: none;  
+  @media print {
+    display: block;
+  }
+}
+
+/* Maximum widths */
+
+.maxw-40em {
+  max-width: 40em;
+  margin-right: auto;
+  margin-left: auto;
+  padding-right: 2em;
+  padding-left: 2em;
+}
+
+
+.maxw-30em {
+  max-width: 30em;
+  margin-right: auto;
+  margin-left: auto;
+  padding-right: 2em;
+  padding-left: 2em;
+}
+
+.maxw-20em {
+  max-width: 20em;
+  margin-right: auto;
+  margin-left: auto;
+  padding-right: 2em;
+  padding-left: 2em;
+}
