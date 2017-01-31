@@ -61,13 +61,13 @@ dd {
 /*
 Blockquote
 ----------
-1) Same left spacing as ul/ol
 */
 
 blockquote {
-  border-left: .25rem solid lightgrey;
-  padding-left: 1.5rem; /* 1) */
+  border: 0;
+  padding-left: 1.75rem;
   margin-left: 0;
+  font-style: italic;
 }
 
 
