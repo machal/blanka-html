@@ -166,7 +166,7 @@ body:hover .sr-only a, body:hover .sr-only input, body:hover .sr-only button { d
 
 /* Responsive images */ 
 
-.img-rwd {
+.img-fluid {
   max-width: 100%;
   height: auto;  
 }    
