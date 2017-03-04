@@ -30,6 +30,13 @@ Blanka Helpers: Subatomic CSS helpers
 
 body:hover .sr-only a, body:hover .sr-only input, body:hover .sr-only button { display: none !important; }
 
+/* Responsive images */
+
+.img-fluid {
+  max-width: 100%;
+  height: auto;
+}
+
 
 /* Margins */
 
@@ -164,12 +171,6 @@ body:hover .sr-only a, body:hover .sr-only input, body:hover .sr-only button { d
   margin-left: auto;
 }
 
-/* Responsive images */ 
-
-.img-fluid {
-  max-width: 100%;
-  height: auto;  
-}    
 
 /* etc. */
 
