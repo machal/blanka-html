@@ -150,3 +150,12 @@ body:hover .sr-only a, body:hover .sr-only input, body:hover .sr-only button { d
   padding-right: 2em;
   padding-left: 2em;
 }
+
+/* etc. */
+
+
+.ellipsis {
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+}
