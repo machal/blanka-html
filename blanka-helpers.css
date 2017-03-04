@@ -164,8 +164,14 @@ body:hover .sr-only a, body:hover .sr-only input, body:hover .sr-only button { d
   margin-left: auto;
 }
 
-/* etc. */
+/* Responsive images */ 
 
+.img-rwd {
+  max-width: 100%;
+  height: auto;  
+}    
+
+/* etc. */
 
 .ellipsis {
   text-overflow: ellipsis;
