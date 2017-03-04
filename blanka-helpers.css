@@ -15,7 +15,7 @@ Blanka Helpers: Subatomic CSS helpers
 .d-i    { display: inline }
 .d-ib   { display: inline-block }
 
-/* Screen reader only */ 
+/* Screen reader only */
 
 .sr-only { /*https://developer.yahoo.com/blogs/ydn/clip-hidden-content-better-accessibility-53456.html*/
     position: absolute !important;
@@ -109,6 +109,13 @@ body:hover .sr-only a, body:hover .sr-only input, body:hover .sr-only button { d
 .b-0 { border: 0; }
 
 
+/* Text Align */
+
+.ta-r { text-align: right; }
+.ta-l { text-align: left; }
+.ta-c { text-align: center; }
+
+
 /* Print */
 
 .hidden-print {
@@ -118,7 +125,7 @@ body:hover .sr-only a, body:hover .sr-only input, body:hover .sr-only button { d
 }
 
 .print-only {
-  display: none;  
+  display: none;
   @media print {
     display: block;
   }
@@ -151,11 +158,17 @@ body:hover .sr-only a, body:hover .sr-only input, body:hover .sr-only button { d
   padding-left: 2em;
 }
 
+.maxw-50perc {
+  max-width: 50%;
+  margin-right: auto;
+  margin-left: auto;
+}
+
 /* etc. */
 
 
 .ellipsis {
   text-overflow: ellipsis;
-  white-space: nowrap;
   overflow: hidden;
+  white-space: nowrap;
 }
