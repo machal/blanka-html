@@ -88,9 +88,3 @@ hr {
   border-style: solid;
   opacity: .25;
 }
-
-.ellipsis {
-  text-overflow: ellipsis;
-  white-space: nowrap;
-  overflow: hidden;
-}
