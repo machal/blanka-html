@@ -87,7 +87,6 @@ body:hover .sr-only a, body:hover .sr-only input, body:hover .sr-only button { d
 .ml-3 { margin-left: 3rem; }
 
 
-
 /* Paddings */
 
 .p-0  { padding: 0; }
@@ -163,36 +162,13 @@ body:hover .sr-only a, body:hover .sr-only input, body:hover .sr-only button { d
 
 /* Maximum widths */
 
-.maxw-40em {
-  max-width: 40em;
-  margin-right: auto;
-  margin-left: auto;
-  padding-right: 2em;
-  padding-left: 2em;
-}
+.maxw-20em { max-width: 20em; }
+.maxw-30em { max-width: 30em; }
+.maxw-40em { max-width: 40em; }
 
-
-.maxw-30em {
-  max-width: 30em;
-  margin-right: auto;
-  margin-left: auto;
-  padding-right: 2em;
-  padding-left: 2em;
-}
-
-.maxw-20em {
-  max-width: 20em;
-  margin-right: auto;
-  margin-left: auto;
-  padding-right: 2em;
-  padding-left: 2em;
-}
-
-.maxw-50perc {
-  max-width: 50%;
-  margin-right: auto;
-  margin-left: auto;
-}
+.maxw-25perc { max-width: 25%; }
+.maxw-33perc { max-width: 33%; }
+.maxw-50perc { max-width: 50%; }
 
 
 /* etc. */
