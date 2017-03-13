@@ -155,6 +155,7 @@ body:hover .sr-only a, body:hover .sr-only input, body:hover .sr-only button { d
 
 /* Widths */
 
+.w-1    { width: 1em; }
 .w-2    { width: 2em; }
 .w-3    { width: 3em; }
 .w-5    { width: 5em; }
