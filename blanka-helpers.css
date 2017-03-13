@@ -50,6 +50,12 @@ body:hover .sr-only a, body:hover .sr-only input, body:hover .sr-only button { d
 .mr-0 { margin-right: 0; }
 .ml-0 { margin-left: 0; }
 
+.m-0-25  { margin: .25rem; }
+.mt-0-25 { margin-top: .25rem; }
+.mb-0-25 { margin-bottom: .25rem; }
+.mr-0-25 { margin-right: .25rem; }
+.ml-0-25 { margin-left: .25rem; }
+
 .m-0-5  { margin: .5rem; }
 .mt-0-5 { margin-top: .5rem; }
 .mb-0-5 { margin-bottom: .5rem; }
@@ -150,6 +156,7 @@ body:hover .sr-only a, body:hover .sr-only input, body:hover .sr-only button { d
 
 /* Widths */
 
+.w-2    { width: 2em; }
 .w-3    { width: 3em; }
 .w-5    { width: 5em; }
 .w-10   { width: 10em; }
