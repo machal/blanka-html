@@ -1,0 +1,10 @@
+{
+  "name": "blanka-css",
+  "description": "Blanka: simple HTML/CSS baseline",
+  "version": "0.2.0",
+  "contributors": [
+    {
+      "name": "Martin Michálek"
+    }
+  ]
+}
