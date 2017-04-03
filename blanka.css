@@ -88,3 +88,8 @@ hr {
   border-style: solid;
   opacity: .25;
 }
+
+figcaption {
+  margin-left: 0;
+  margin-right: 0;
+}  
