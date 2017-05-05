@@ -71,6 +71,22 @@ blockquote {
   font-style: italic;
 }
 
+/*
+Figure/Figcaption
+-----------------
+*/
+
+figure {
+  margin-left: 0;
+  margin-right: 0;
+}  
+
+figure > table,
+figure > img,
+figure > picture {
+  margin-bottom: 0;
+}
+
 
 /*
 Etc.
@@ -90,7 +106,3 @@ hr {
   opacity: .25;
 }
 
-figure {
-  margin-left: 0;
-  margin-right: 0;
-}  
